@@ -40,7 +40,10 @@ export default function LoginPage() {
       setChargement(false);
     }
   };
+<<<<<<< HEAD
   
+=======
+>>>>>>> 6bbd9fd9fe9b0ed1735d219004bfe80bdcfb0ef5
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="w-full max-w-105">
