@@ -1,5 +1,5 @@
 const http = require('http');
-require('dotenv').config();
+// require('dotenv').config();
 
 const authRouter     = require('./routes/auth');
 const facturesRouter = require('./routes/factures');

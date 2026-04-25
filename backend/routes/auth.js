@@ -4,7 +4,7 @@ const db = require('../config/db');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const send = require('../utils/response');
-require('dotenv').config();
+// require('dotenv').config();
 
 const router = new Router();
 
