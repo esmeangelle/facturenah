@@ -467,7 +467,7 @@ export default function MyInvoices() {
     const pageH = doc.internal.pageSize.height;
     doc.setFillColor(5, 150, 105); doc.rect(0, pageH - 10, 210, 10, "F");
     doc.setTextColor(255, 255, 255); doc.setFontSize(7); doc.setFont("helvetica", "normal");
-    doc.text("Généré par FacturePro", 105, pageH - 4, { align: "center" });
+    doc.text("Généré par facturenah", 105, pageH - 4, { align: "center" });
     doc.save(`${inv.id}.pdf`);
   };
 
@@ -476,7 +476,7 @@ export default function MyInvoices() {
     const doc = new jsPDF();
     doc.setFillColor(5, 150, 105); doc.rect(0, 0, 210, 28, "F");
     doc.setTextColor(255, 255, 255); doc.setFontSize(18); doc.setFont("helvetica", "bold");
-    doc.text("FacturePro", 14, 13);
+    doc.text("facturenah", 14, 13);
     doc.setFontSize(10); doc.setFont("helvetica", "normal");
     doc.text("Export des factures", 14, 21);
     doc.text(`Généré le ${new Date().toLocaleDateString("fr-FR")}`, 150, 21);
