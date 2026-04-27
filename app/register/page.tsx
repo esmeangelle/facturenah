@@ -96,7 +96,7 @@ export default function RegisterPage() {
               <div className="space-y-1.5">
                 <label className="block text-sm font-semibold text-gray-700">Prénom</label>
                 <input
-                  type="text" required placeholder="Jean"
+                  type="text" required placeholder="Votre prénom"
                   value={form.prenom}
                   onChange={e => setForm({ ...form, prenom: e.target.value })}
                   className="w-full px-3.5 py-3 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 hover:bg-white hover:border-gray-300"
@@ -105,7 +105,7 @@ export default function RegisterPage() {
               <div className="space-y-1.5">
                 <label className="block text-sm font-semibold text-gray-700">Nom</label>
                 <input
-                  type="text" required placeholder="Dupont"
+                  type="text" required placeholder="Votre nom"
                   value={form.nom}
                   onChange={e => setForm({ ...form, nom: e.target.value })}
                   className="w-full px-3.5 py-3 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 hover:bg-white hover:border-gray-300"
@@ -123,7 +123,7 @@ export default function RegisterPage() {
                   </svg>
                 </div>
                 <input
-                  type="email" required placeholder="vous@exemple.com"
+                  type="email" required placeholder="Votre email"
                   value={form.email}
                   onChange={e => setForm({ ...form, email: e.target.value })}
                   className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 hover:bg-white hover:border-gray-300"

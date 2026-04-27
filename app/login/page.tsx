@@ -84,7 +84,7 @@ export default function LoginPage() {
                 </svg>
               </div>
               <input
-                type="email" required placeholder="vous@exemple.com"
+                type="email" required placeholder="Votre email"
                 value={form.email}
                 onChange={e => setForm({ ...form, email: e.target.value })}
                 onKeyDown={e => e.key === 'Enter' && handleSubmit(e as never)}
