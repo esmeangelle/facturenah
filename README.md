@@ -41,7 +41,7 @@ PORT=5000
 
 ### 5. Créer la base de données
 
-Lance WAMP, ouvre phpMyAdmin et exécute les scripts SQL du dossier `backend/`.
+Ouvre phpMyAdmin et importe le fichier `backend/database.sql`
 
 
 ## Démarrage
